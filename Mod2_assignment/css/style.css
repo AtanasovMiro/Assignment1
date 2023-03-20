@@ -40,16 +40,7 @@ h1{
 		flex-wrap: wrap;
 	}
 
-@media (min-width: 1315px){
-	#mainDiv{
-		background-color: #787878;
-		width: 30%;
-		border: 2px solid black;
-		margin: 20px;
-	}
-}
-
-@media (min-width: 900px) and (max-width: 1314.9px){
+@media (max-width: 900px){
 	#bigBoy>* {
 		flex: 1 1 390px;
 	}
@@ -62,11 +53,21 @@ h1{
 	}
 }
 
-@media (max-width: 899.9px){
+@media (min-width: 901px) and (max-width: 1315px){
 	#bigBoy>* {
 		flex: 1 1 390px;
 	}
 
+	#mainDiv{
+		background-color: #787878;
+		width: 30%;
+		border: 2px solid black;
+		margin: 20px;
+	}
+}
+
+
+@media (min-width: 1316px){
 	#mainDiv{
 		background-color: #787878;
 		width: 30%;
