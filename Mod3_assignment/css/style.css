@@ -1,0 +1,30 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: #61122f;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/*Header*/
+#header-nav{
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    text-align: center;
+    align-items: center;
+}
+
+@media (min-width: 576px) {
+	.collapse.navbar-collapse {
+    	display: none !important;
+	}
+}
+
+#firstProduct, #secondProduct, #thirdProduct{
+	background-color: gray;
+	padding: 0px 15px;
+}
